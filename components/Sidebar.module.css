@@ -1,0 +1,24 @@
+/* app/components/Sidebar.module.css */
+.sidebar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #1C1C26;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 1%;
+}
+
+.link {
+    color: white !important;
+    /* Use !important to ensure color */
+    text-decoration: none;
+    padding: 0.75rem;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #2c2e33;
+    /* Hover effect */
+}
